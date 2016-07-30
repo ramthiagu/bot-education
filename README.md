@@ -1,6 +1,6 @@
 ## Summary of this Repository
 
-`boteducation` is a place for additional resources around Microsoft Bot Framework and related bot topics.
+`bot-education` is a place for training resources around Microsoft Bot Framework and related bot topics.  This includes samples and documentation.
 
 ## MS Bot Framework Resources
 
@@ -22,7 +22,7 @@ To get started quickly in the .NET framework, check out this [link](http://docs.
   * [Language Understanding Intelligent Service (LUIS)](https://www.microsoft.com/cognitive-services/en-us/language-understanding-intelligent-service-luis)
   * [Text analytics](https://www.microsoft.com/cognitive-services/en-us/text-analytics-api) 
   
-  --> Once subscribed, these should like out to your Reference API (a link will appear on the service main page) for your Cognitive Services account if you have one.  This will give you sample code for different services in many, many languages including python 2/3, C#, and JavaScript.
+  --> Once subscribed, these should link out to your Reference API (a link will appear on the service main page) for your Cognitive Services account if you have one.  This will give you sample code for different services in many, many languages including python 2/3, C#, and JavaScript.
   
   * Sample (python 2.7) [code](https://text-analytics-demo.azurewebsites.net/Home/SampleCode) for text analytics used in this repo. 
   
