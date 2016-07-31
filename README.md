@@ -43,6 +43,8 @@ To get started quickly in the .NET framework, check out this [link](http://docs.
 
 * Even though bots and the Microsoft Bot Framework are not really A.I., [this](http://www.slate.com/articles/technology/future_tense/2016/06/microsoft_ceo_satya_nadella_humans_and_a_i_can_work_together_to_solve_society.html) article by Microsoft's CEO Satya Nadella, published June 28, 2016, highlights some values and principles to guide our thinking, design and development of A.I.  The values and principles do apply very readily to bots and their design and development.
 
+* In [this](https://azure.microsoft.com/en-us/blog/bot-framework-made-better-with-azure/) blog by Jeff Holan, a Bot Framework solution is shown with integration into Logic Apps.
+
 ## Videos
 
 Building a Conversational Bot: From 0 to 60 (//build/ 2016) by Dan Driscoll [video link](https://channel9.msdn.com/Events/Build/2016/B821)
