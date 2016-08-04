@@ -50,6 +50,8 @@ To get started quickly in the .NET framework, check out this [link](http://docs.
 
 * In [this](https://azure.microsoft.com/en-us/blog/bot-framework-made-better-with-azure/) blog by Jeff Holan, a Bot Framework solution is shown with integration into Logic Apps.
 
+* Here's a nice article on [deep learning for chatbots](https://www.opendatascience.com/blog/introduction-deep-learning-for-chatbots-part-1/?utm_source=Open+Data+Science+Newsletter&utm_campaign=e947eccaa9-Newsletter_Vol_568_4_2016&utm_medium=email&utm_term=0_2ea92bb125-e947eccaa9-245797493).
+
 ## Videos
 
 Building a Conversational Bot: From 0 to 60 (//build/ 2016) by Dan Driscoll [video link](https://channel9.msdn.com/Events/Build/2016/B821)
