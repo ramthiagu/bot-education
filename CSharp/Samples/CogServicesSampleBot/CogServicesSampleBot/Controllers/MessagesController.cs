@@ -103,43 +103,6 @@ namespace CogServicesSampleBot
             return response;
         }
 
-        public static async Task<string> createSpeakerProfile(string locale)
-        {
-            //Set up response
-            var responseString = "";
-            HttpResponseMessage response;
-
-            var client = new HttpClient();
-            var queryString = HttpUtility.ParseQueryString(string.Empty);
-
-
-            try
-            {
-                // Request headers
-                client.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", Keys.SpeakerRecogSubscriptionKey);
-                var uri = "https://api.projectoxford.ai/spid/v1.0/identificationProfiles?" + queryString;
-
-                // Request body
-                byte[] byteData = Encoding.UTF8.GetBytes("{body}");
-
-                using (var content = new ByteArrayContent(byteData))
-                {
-                    content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-                    response = await client.PostAsync(uri, content);
-                    responseString = response.ToString();
-                }
-
-
-            }
-            catch (Exception ex)
-            {
-                responseString = "Error: " + ex.ToString();
-            }
-
-            //Return response
-            return responseString;
-        }
-
         private Activity HandleSystemMessage(Activity message)
         {
             if (message.Type == ActivityTypes.DeleteUserData)
