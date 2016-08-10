@@ -4,6 +4,6 @@ This is a bot based on the Microsoft Bot Framework template which contains Micro
 
 1.  Speech API (Speaker Recognition)
 *  Knowledge API (ELIS)
-*  Language API (Text Analytics for key phrases)
+*  Language API (Text Analytics)
 *  Bing Search API (News)
-*  Vision API (Computer Vision)
+*  Vision API (Emotion API with Video)
