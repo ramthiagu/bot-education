@@ -5,8 +5,8 @@
 
 | Bot  | Key Features  | Description  |
 |---|---|---|
-| EchoTestBot  | Dialogs  | Illustrates the use of Dialogs from Bot Builder to echo user input with and without variable persistance.  |
-|   |   |   |
+| EchoTestBot  | Dialogs  | Illustrates the use of Dialogs from Bot Builder to echo user input with and without variable persistance  |
+| AttachmentBot  | Attachments, Actions, and Cards  | Shows the use of the Attachments property in message activities by highlighting cards with buttons and associated actions  |
 
 ## Smart Bots (i.e. incorporating Cognitive Services, Azure Machine Learning or other ML)
 
