@@ -1,7 +1,3 @@
-## Summary of this Repository
-
-`bot-education` is a place for training resources around Microsoft Bot Framework and related bot topics.  This includes samples and documentation.
-
 ## MS Bot Framework Resources
 
 Find the framework main page here: https://dev.botframework.com.
