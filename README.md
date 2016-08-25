@@ -4,5 +4,32 @@
 
 For additional resources see the [Additional Resources](ADDITIONAL_RESOURCES.md) section.
 
+##  Quick Start
 
+Begin with "Bot Framework Developer's Introduction" guide (COMING SOON) for a 0 to 60 style walk-through of creating your first bot and publishing it, and consuming it within Skype.  
+
+You'll need Visual Studio (2015 preferably - Community Edition is fine), the Bot Emulator, and the Bot Template.  Instructions in the guide.
+
+##  What can be found in `bot-education`
+
+**Samples**
+* Sample bots in Visual Studio solution formats (C#)
+* Sample Cognitive Services API code snippets (as Jupyter notebooks mainly) - COMING SOON
+* Sample Azure Machine Learning solutions (e.g. anomaly detection) - COMING SOON
+
+**Labs**
+* links to these here (COMING SOON)
+
+**Guides/Slides**
+* list these here (COMING SOON)
+
+##  Overall learning objectives
+
+* Learn about the different types of bots (they aren't always smart)
+* Learn about the components of a bot in the context of the Microsoft Bot Framework (BF)
+* Gain pratical knowledge of how to integrate Cognitive Services "smarts" into a bot
+* Gain understanding around what makes for an excellent user experience
+* Gain hands-on knowledge of how to quickly implement, publish, register and consume a bot with the BF
+* Understand the development of bots on a deeper level by plunging into the SDKs
+* Become proficient at integrating the right kind of "smarts" for the right kind of bot and use case
 
