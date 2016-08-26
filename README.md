@@ -14,7 +14,7 @@ You'll need Visual Studio (2015 preferably - Community Edition is fine), the Bot
 
 **Samples**
 * Sample bots in Visual Studio solution formats (C#)
-* Sample Cognitive Services API code snippets (as Jupyter notebooks mainly) - COMING SOON
+* Sample Cognitive Services API code snippets (as Jupyter notebooks mainly) found [here](/CognitiveServices/Samples/python)
 * Sample Azure Machine Learning solutions (e.g. anomaly detection) - COMING SOON
 
 **Labs**
