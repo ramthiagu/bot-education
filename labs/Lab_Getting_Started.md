@@ -1,4 +1,4 @@
-# Lab:  Building your first bot
+# Lab:  Building your first bot with a Dialog in .NET
 
 ## Pre-requisites
 1.	Visual Studio 2015 (Community version is ok) (could use Visual Studio Code on non-Windows systems – however most these instructions are working within a Windows system)
@@ -29,6 +29,7 @@ This document can also be found on this repository: https://github.com/michhar/b
 
 From Bot Framework .NET template, perform the following steps to add Dialog functionality.
 Add this namespace:
+
 `using Microsoft.Bot.Builder.Dialogs;`
 
 Add this class:
@@ -71,19 +72,22 @@ public virtual async Task<HttpResponseMessage> Post([FromBody] Activity activity
 
 Run from VS
  
-[!run from VS](/images/vs_run_browser.PNG)
+![run from VS](images/vs_run_browser.PNG)
 
-This should open a browser window with the endpoint (showing the default.htm file from project) and the port above should match the port in the emulator.
+This should open a browser window with the endpoint (showing the default.htm file from project) and the port should match the port in the emulator.
 
-Open the Bot Framework Emulator application.
+![run from VS](images/defaulthtm.PNG)
 
-For local testing with the emulator make sure the Id and password fields are clear:
+Open the Bot Framework Emulator application.  For local testing with the emulator make sure the Id and password fields are clear:
  
+![bot emulator 1](images/emulator_clear_ids.PNG)
 
 
 Test out this echo dialog bot.
 
  
+![bot emulator ](images/emulator_simple_echo.PNG)
+
 
 
 Adding State to the EchoBot
@@ -148,7 +152,10 @@ Replace the old EchoDialog with this one:
 
 Again, run the code in VS and test in the bot emulator.
  
- 
+ ![bot emulator ](images/emulator_state_echo1.PNG)
+ ![bot emulator ](images/emulator_state_echo2.PNG)
+ ![bot emulator ](images/emulator_state_echo3.PNG)
+
 
 Extra Credit – AlarmBot
 
