@@ -20,9 +20,10 @@ You'll need Visual Studio (2015 preferably - Community Edition is fine), the Bot
 * Sample Azure Machine Learning solutions (e.g. anomaly detection) - COMING SOON
 
 **Labs**
-* links to these here (COMING SOON)
+* [Getting Started in the .NET SDK](labs/Lab_Getting_Started.md)
+* links to more labs (COMING SOON)
 
-**Guides/Slides**
+**Guides/Slide Decks**
 * list these here (COMING SOON)
 
 ##  Overall learning objectives
