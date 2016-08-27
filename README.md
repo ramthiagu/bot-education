@@ -6,7 +6,9 @@ For additional resources see the [Additional Resources](ADDITIONAL_RESOURCES.md)
 
 ##  Quick Start
 
-Begin with "Bot Framework Developer's Introduction" guide (COMING SOON) for a 0 to 60 style walk-through of creating your first bot and publishing it, and consuming it within Skype.  
+To begin, satisfy some pre-reqs and go through an example using the .NET Bot Builder SDK.  This introductory lab is located in this repository [here](labs/Lab_Getting_Started.md).
+
+Next, turn to the "Bot Framework Developer's Introduction" guide (COMING SOON) for a 0 to 60 style walk-through of creating your first bot and publishing it, and consuming it within Skype.
 
 You'll need Visual Studio (2015 preferably - Community Edition is fine), the Bot Emulator, and the Bot Template.  Instructions in the guide.
 
