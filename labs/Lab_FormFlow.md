@@ -2,9 +2,9 @@
 
 > The focus of this lab will be on working with FormFlow, a dialog generator, to easily create a conversational model handling a guided conversation.  This is good for a model that has many options and potentially sub-options.  Language Understanding Intelligence Service (LUIS) intents are often combined with FormFlow to detect the intent of the user (e.g. "order" *something* where order could be a different word meaning the same thing).
 
-## If you have already satisfied the pre-requisites, please move ahead to [FormFlow walk-through](#FormFlow walk-through) below.
-
 ## Pre-requisites
+
+**Note:  If you have already satisfied the pre-requisites, please move ahead to [FormFlow walk-through](#FormFlow walk-through) below.**
 
 1.	Visual Studio 2015 (Community version is ok) (could use Visual Studio Code on non-Windows systems – however most these instructions are working within a Windows system)
 2.	A Microsoft Account to log into the Bot Framework developer portal, which you will use to register your Bot as well as to sign up for Cognitive Services subscriptions (if you have Hotmail, Live, Outlook.com, or an Xbox account then you already have a Microsoft Account).
@@ -59,6 +59,6 @@ Open the Bot Framework Emulator application.  For local testing with the emulato
 
 Run some test pizza orders (e.g. "order pizza") to see FormFlow (and LUIS intents) in action.
 
-![bot emulator pizza](images/bot_emulator_pizzaPNG)
+![bot emulator pizza](images/bot_emulator_pizza.PNG)
 
 **At this point, feel free to register and publish this bot to your bot directory.**
