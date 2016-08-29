@@ -4,7 +4,7 @@
 
 ## Pre-requisites
 
-**Note:  If you have already satisfied the pre-requisites, please move ahead to [FormFlow walk-through](#FormFlow walk-through) below.**
+**Note:  If you have already satisfied the pre-requisites, please move ahead to [FormFlow walk-through](#FormFlow) below.**
 
 1.	Visual Studio 2015 (Community version is ok) (could use Visual Studio Code on non-Windows systems – however most these instructions are working within a Windows system)
 2.	A Microsoft Account to log into the Bot Framework developer portal, which you will use to register your Bot as well as to sign up for Cognitive Services subscriptions (if you have Hotmail, Live, Outlook.com, or an Xbox account then you already have a Microsoft Account).
