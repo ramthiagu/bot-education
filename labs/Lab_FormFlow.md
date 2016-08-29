@@ -1,12 +1,12 @@
 # Lab:  Building a Bot with FormFlow (and LUIS intents)
 
-##  The focus of this lab will be on working with FormFlow, a dialog generator, to easily create a conversational model handling a guided conversation.  This is good for a model that has many options and potentially sub-options.  Language Understanding Intelligence Service (LUIS) intents are often combined with FormFlow to detect the intent of the user (e.g. "order" *something* where order could be a different word meaning the same thing).
+> The focus of this lab will be on working with FormFlow, a dialog generator, to easily create a conversational model handling a guided conversation.  This is good for a model that has many options and potentially sub-options.  Language Understanding Intelligence Service (LUIS) intents are often combined with FormFlow to detect the intent of the user (e.g. "order" *something* where order could be a different word meaning the same thing).
 
-## If you have already satisfied the pre-requisites, please move ahead to Fluent Chained Dialogs below 
+## If you have already satisfied the pre-requisites, please move ahead to [FormFlow walk-through](#FormFlow walk-through) below.
 
 ## Pre-requisites
 
-1.	Visual Studio 2015 (Community version is ok) (could use Visual Studio Code on non-Windows systems – however most these instructions are working within a Windows system)
+1.	Visual Studio 2015 (Community version is ok) (could use Visual Studio Code on non-Windows systems â€“ however most these instructions are working within a Windows system)
 2.	A Microsoft Account to log into the Bot Framework developer portal, which you will use to register your Bot as well as to sign up for Cognitive Services subscriptions (if you have Hotmail, Live, Outlook.com, or an Xbox account then you already have a Microsoft Account).
 3.	An Azure account for an Azure-accessible REST endpoint (for registering your bot with the Bot Framework service)
 4.	The Bot Framework Emulator
@@ -22,8 +22,6 @@ Clone the [`bot-education`](https://github.com/michhar/bot-education) github rep
 ## If developing in Node.js and the Node.js Bot Builder SDK (Note, this lab is using the .NET SDK)
 
 Download Node.js Tools for Visual Studio (https://www.visualstudio.com/en-us/features/node-js-vs.aspx) (may need VS 2015 Update 3 - https://www.visualstudio.com/en-us/news/releasenotes/vs2015-update3-vs ) - if developing in Node
-
-## Fluent Chained Dialogs
 
 ### FormFlow walk-through
 
