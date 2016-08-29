@@ -1,0 +1,15 @@
+In the artificial intelligence age we live in, you’ll find AI in the workplace, the home, and even on a sports pitch. From hospitals to highways, artificial intelligence offers new solutions to real-world problems.
+
+But teaching an artificial system to be intelligent isn’t as easy as the movies make it look. Lots of time and energy go into training computers on seemingly simple concepts.
+
+“You have to first appreciate the enormous gulf between computers and people. Computers are profoundly stupid machines,” says Bruce Porter, Chair of the Department of Computer Science. “If you can get a computer to do something smart, like IBM’s Watson on Jeopardy, you have to respect how much work went into that accomplishment. Because computers as they come out of the box are so useless, so stupid, to get them to do something intelligent like these systems have done is a tour de force.”
+
+Teaching Intelligence
+
+Consider the amount of computation your brain does for something as simple as catching a ball. It recognizes the object, calculates speed and direction, and computes where to intercept the ball. These are easy tasks for humans, but teaching them to a computer means tackling each piece separately.
+
+Kristen Grauman, head of the Computer Vision Group at UT Austin, teaches computers to understand what they see. For this, machines need to identify categories of objects or activities and communicate with humans.
+
+Part of teaching computers to recognize objects is getting them to decipher descriptive terms like furry, metallic, or formal. Imagine trying to explain furry to someone who has never held or seen an animal, and you get a sense of the challenge. To address the gap, Grauman is developing learning algorithms that can estimate the presence of descriptive attributes in images. Such predictions pave the way for clear communication between human “teachers” and visual recognition systems. A person can tell the system that dogs are furry, four-legged animals, and the system can conjure a model even before it’s shown actual image examples.
+
+Nuanced LearningAn image retrieval project called WhittleSearch builds on this technology to let people make relative comparisons between images, allowing users to fine-tune their search. “Suppose you have in mind what something looks like: your ideal handbag or pair of shoes, or the criminal you witnessed commit a crime. Trying to express that to a computer in words alone is quite limiting,” she says. Instead, WhittleSearch allows users to give comparative feedback, like that the pair of shoes should be more formal, or the criminal had a broader nose.This way, the machine targets the right image from its vast database.
