@@ -2,7 +2,7 @@
 
 ## Pre-requisites
 
-**Note:  If you have already satisfied the pre-requisites, please move ahead to [FormFlow walk-through](#formflow-walk-through) below.**
+**Note:  If you have already satisfied the pre-requisites, please move ahead to [TextSentiBot](#textsentibot) below.**
 
 1.	Visual Studio 2015 (Community version is ok) (could use Visual Studio Code on non-Windows systems – however most these instructions are working within a Windows system)
 2.	A Microsoft Account to log into the Bot Framework developer portal, which you will use to register your Bot as well as to sign up for Cognitive Services subscriptions (if you have Hotmail, Live, Outlook.com, or an Xbox account then you already have a Microsoft Account).
@@ -12,11 +12,6 @@
 6.	Github and Git Shell for Windows
 7.	(Optional) Developer accounts on one or more communication services (such as Facebook) where your Bot will communicate (Skype is already set up for you).
 8.	(Optional) An Azure App Insights account to capture telemetry on your bot. 
-
-## Setup
-
-
-Clone the [`bot-education`](https://github.com/michhar/bot-education) github repository with Windows Git Shell or simply `git`.
 
 ## If developing in Node.js and the Node.js Bot Builder SDK
 
@@ -30,7 +25,7 @@ From Bot Framework .NET template, perform the following steps to add the Text An
 
 Create a new C# class file (TextAnalyticsCall.cs) with the following code. The class will serve as our model for the JSON input/output of the Text Analytics API.
 
-```
+```csharp
 using System.Collections.Generic;
 
 namespace TextSentiBot
@@ -60,9 +55,9 @@ namespace TextSentiBot
 }
 ```
 
-Next, go to *MessagesController.cs* and add the following namespaces.
+Next, go to *MessagesController.cs* and add the following namespaces if needed.
 
-```
+```csharp
 using System.Collections.Generic;
 using System.Text;
 using System.Net.Http.Headers;
@@ -72,7 +67,7 @@ using Newtonsoft.Json;
 The code receives the user message, calls the sentiment analysis endpoint and responds accordingly to the user.  Replace the Post method in *MessageController.cs* with the following code.
 
 
-```
+```csharp
 public async Task<HttpResponseMessage> Post([FromBody]Activity activity)
 {
     ConnectorClient connector = new ConnectorClient(new Uri(activity.ServiceUrl));
@@ -82,7 +77,7 @@ public async Task<HttpResponseMessage> Post([FromBody]Activity activity)
         //add code to handle errors, or non-messaging activities
     }
 
-    const string apiKey = "38062e5b581b472a9fbcea0bda7a8319";
+    const string apiKey = "<YOUR COGNITIVE SERVICES TEXT ANALYTICS SUBSCRIPTION KEY>";
     string queryUri = "https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment";
 
     HttpClient client = new HttpClient();
@@ -135,7 +130,7 @@ Run from VS
 
 This should open a browser window with the endpoint (showing the default.htm file from project) and the port should match the port in the emulator.
 
-![run from VS](images/defaulthtm.PNG)
+![run from VS](images/defaulthtm_senti.PNG)
 
 Open the Bot Framework Emulator application.  For local testing with the emulator make sure the Id and password fields are clear:
  
@@ -145,6 +140,6 @@ Open the Bot Framework Emulator application.  For local testing with the emulato
 Test out this the bot.
 
 
-![bot emulator ](images/emulator_textsenti.PNG)
+![bot emulator ](images/bot_emulator_textsenti.PNG)
 
-**Now, feel free to register and publish your bot to try out on Skype.**
+**Now, feel free to register and publish your bot to try out on Skype or your favorite channel.**
