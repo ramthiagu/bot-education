@@ -21,9 +21,9 @@ Download Node.js Tools for Visual Studio (https://www.visualstudio.com/en-us/fea
 
 > Adapted from https://docs.botframework.com/en-us/bot-intelligence/language/#example-emotional-bot
 
-From Bot Framework .NET template, perform the following steps to add the Text Analytics Cognitive Services API call.
+**From Bot Framework .NET template, perform the following steps to add the Text Analytics Cognitive Services API call.**
 
-Create a new C# class file (TextAnalyticsCall.cs) with the following code. The class will serve as our model for the JSON input/output of the Text Analytics API.
+**Create a new C# class file (TextAnalyticsCall.cs) with the following code.** The class will serve as our model for the JSON input/output of the Text Analytics API.
 
 ```csharp
 using System.Collections.Generic;
@@ -55,7 +55,7 @@ namespace TextSentiBot
 }
 ```
 
-Next, go to *MessagesController.cs* and add the following namespaces if needed.
+**Next, go to *MessagesController.cs* and add the following namespaces if needed.**
 
 ```csharp
 using System.Collections.Generic;
@@ -64,7 +64,7 @@ using System.Net.Http.Headers;
 using Newtonsoft.Json;
 ```
 
-The code receives the user message, calls the sentiment analysis endpoint and responds accordingly to the user.  Replace the Post method in *MessageController.cs* with the following code.
+The code receives the user message, calls the sentiment analysis endpoint and responds accordingly to the user.  **Replace the Post method in *MessageController.cs* with the following code.**
 
 
 ```csharp
@@ -124,7 +124,7 @@ public async Task<HttpResponseMessage> Post([FromBody]Activity activity)
 }
 ```
 
-Run from VS
+**Run from VS**
  
 ![run from VS](images/vs_run_browser.PNG)
 
@@ -132,12 +132,14 @@ This should open a browser window with the endpoint (showing the default.htm fil
 
 ![run from VS](images/defaulthtm_senti.PNG)
 
-Open the Bot Framework Emulator application.  For local testing with the emulator make sure the Id and password fields are clear:
+**Open the Bot Framework Emulator application.**  
+
+For local testing with the emulator make sure the Id and password fields are clear:
  
 ![bot emulator 1](images/emulator_clear_ids.PNG)
 
 
-Test out this the bot.
+**Test out this bot in the emulator.**
 
 
 ![bot emulator ](images/bot_emulator_textsenti.PNG)
