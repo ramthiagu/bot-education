@@ -13,8 +13,8 @@
 | Bot  | Key Features  | Description  |
 |---|---|---|
 | CogServicesSampleBot  | Cognitive Services basic API calls  | A bot illustrating basic REST API calls to various Microsoft Cognitive Services.  |
-| LUISStockBot  |   |   |
-| SentiBot  |   |   |
-| VisionBot  |   |   |
+| LUISStockBot  | Cognitive Service LUIS with external rest API | A bot illustrating external REST API calls to Microsoft Cognitive Service LUIS  |
+| SentiBot  | Cognitive Service Emotion API | A bot illustrating calls to Emotion API  |
+| VisionBot  | Cognitive Service Computer Vision API  | A bot illustrating calls to Computer Vision API   |
 
 
