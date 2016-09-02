@@ -28,8 +28,8 @@ To get started quickly in the .NET framework, check out this [link](http://docs.
 * [Skype Bots](https://developer.microsoft.com/en-us/skype/bots)
 * When adding intelligence check out the [Experience Principles and Best Practices](https://docs.botframework.com/en-us/directory/best-practices/) from the docs to help plan out your bot idea and make it a great experience for users.
 
-## Examples
-
+## Samples and Demos
+* Intelligent Kiosk Cognitive Services Demo - get [app](https://www.microsoft.com/en-us/store/p/intelligent-kiosk/9nblggh5qd84) from MS App Store
 * Examples from BotBuilder repository for Node.js [here](https://github.com/Microsoft/BotBuilder/tree/master/Node/examples)
 * Examples from BotBuilder repository for .NET [here](https://github.com/Microsoft/BotBuilder/tree/master/CSharp/Samples)
 
