@@ -5,7 +5,7 @@
 2.	A Microsoft Account to log into the Bot Framework developer portal, which you will use to register your Bot as well as to sign up for Cognitive Services subscriptions (if you have Hotmail, Live, Outlook.com, or an Xbox account then you already have a Microsoft Account).
 4.	The Bot Framework Emulator from the Bot Framework [Downloads](https://docs.botframework.com/en-us/downloads/#navtitle) page.
 5.	The Bot Framework Visual Studio Template (C#) from the Bot Framework [Downloads](https://docs.botframework.com/en-us/downloads/#navtitle) page.
-6.	Github for Windows (comes with Git Shell) or git on other systems
+6.	(Optional) Github for Windows (comes with Git Shell) or git on other systems to download this repository.
 7.	(Optional) An Azure account for an Azure-accessible REST endpoint (for registering your bot with the Bot Framework service)
 7.	(Optional) Developer accounts on one or more communication services (such as Facebook) where your Bot will communicate (Skype is already set up for you).
 8.	(Optional) An Azure App Insights account to capture telemetry on your bot. 
@@ -152,6 +152,18 @@ Again, run the code in VS and test in the bot emulator.
  ![bot emulator ](images/emulator_state_echo3.PNG)
 
 
-Extra Credit – AlarmBot
+## Evaluation/Homework
+
+Show the emulator communication and responses to the following (screenshot(s) are sufficient):
+
+1.  `I would like to analyze this sentence`
+2.  `What did I say just now?`
+3.  `reset`
+4.  `yes`
+4.  `Next sentence`
+
+**If you are turning this in for homework, add these responses to a document and send it to the appropriate party.**
+
+## Extra Credit – AlarmBot (this is not part of Homework, just more exercises)
 
 Follow the instructions and code for adding a natural language understanding model (LUIS API) to the EchoBot above in the documentation (https://docs.botframework.com/en-us/csharp/builder/sdkreference/dialogs.html)
