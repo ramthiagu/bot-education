@@ -32,7 +32,7 @@ To sign up, follow these instructions:
 Here we will formulate our request, send it and interpret the response.
 
 1.  Ensure that on the left, `Analyze Image` POST is selected.
-*  Under "Query parameters", change `visualFeatures` to "Tags" to get all of the "tagging" or people/places/things information.
+*  Under "Query parameters", change `visualFeatures` to "Description" to get a description of the image content with a complete English sentence.
 *  Under "Headers", keep the `Content-Type` as "application/json" because we are sending our request content as a serialized JSON query.  Fill in the `Ocp-Apim-Subscription-Key` with the key given by the trial (you may have to go back to your "My account" page as you did in the signing up instructions above).
 *  Under "Request body", read through the information and image requirements.  In the text box replace the URL value string with this image string:  "https://raw.githubusercontent.com/michhar/bot-education/master/misc/tmp/images/man_with_frisbee_beach.jpg".
 *  Scroll down past the HTTP request (noticing how the request was built for us here) and click on "Send".
