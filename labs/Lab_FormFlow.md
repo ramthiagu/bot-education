@@ -62,4 +62,8 @@ Run some test pizza orders (e.g. "order pizza") to see FormFlow (and LUIS intent
 
 ![bot emulator pizza](images/bot_emulator_pizza.PNG)
 
+## Evaluation/Homework
+
+Show the emulator communication (your text message) and responses (**JSON**) to the final result of ordering a pizza (screenshot(s) are sufficient).
+
 **At this point, feel free to register and publish this bot to your bot directory.**
